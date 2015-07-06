@@ -66,7 +66,7 @@ public class HttpClient {
 
 			//HTTP response code check
 			int httpstatus = conn.getResponseCode();
-			if(httpstatus/200==2){ //Responsecode from 200~206
+			if(httpstatus/100==2){ //Responsecode from 200~206
 				//Inputstream, reads input into stringbuilder
 				InputStream is = conn.getInputStream();
 				BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"), 8); //Throws exception if incorrect encoding
