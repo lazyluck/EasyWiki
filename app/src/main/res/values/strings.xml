@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EasyWiki</string>
+    <string name="search_hint">Search Wikipedia..</string>
+
+    <string name="empty_search">Enter a search term!</string>
+    <string name="empty_result">Your search turned up empty.</string>
+    <string name="empty_favorites">Your favorites list is empty.</string>
+
+    <string name="search_result">Search Result</string>
+
+    <string name="error_connection">You are not connected to a network. Please check your network settings.</string>
+    <string name="error_network">A network error has occured.</string>
+    <string name="error_fetch">An error occured while fetching your result. Please try again.</string>
+    <string name="error_developer">A developer error has occured.</string>
+
+    <string name="action_favorites">Favorites</string>
+    <string name="action_wikipedia">Visit Wikipedia</string>
+    <string name="action_return">Return to the last page</string>
+
+
+    <string name="logo1">EASYWIKI</string>
+    <string name="logo2">The Easier Encyclopedia</string>
+
+</resources>
